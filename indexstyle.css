@@ -1,0 +1,207 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	margin: 0;
+	padding: 0;
+}
+.wrap{
+	width: 1366px;
+	height: 3135px;
+	margin: 0 auto;
+/*	background-color: aqua;*/
+}
+.main{
+	width: 1366px;
+	height: 30px;
+	background-color: blueviolet;
+}
+.main h2{
+	line-height: 30px;
+	color: white;
+}
+.head{
+	width: 1366px;
+	height: 200px;
+	background-color: white;
+}
+.logo{
+	float:left;
+	margin-left: 300px;
+	margin-top: 10px;
+}
+.search{
+	float: right;
+	margin: 70px 250px 0px 0px;
+}
+.search input{
+	width: 400px;
+	padding: 5px;
+	border-radius: 20px;
+}
+.search button{
+	width: 100px;
+	padding: 5px;
+	border-radius: 20px;
+	font-weight: bold;
+	font-size: 16px;
+	cursor: pointer;
+	border: none;
+}
+.search button:hover{
+	background-color: blueviolet;
+	color: white;
+}
+.nav{
+	width: 1366px;
+	height: 50px;
+/*	position: fixed; */
+	background-color: blueviolet;
+/*	z-index: 1; */
+}
+.nav ul{
+	margin-left: 450px;
+/*	margin: 0 auto;*/
+}
+.nav ul li{
+	list-style: none;
+	display: inline-block;
+	padding-right: 40px;
+	padding-top: 15px;
+	color: white;
+	font-weight: bold;
+	cursor: pointer;
+}
+
+a {
+	text-decoration: none !important;
+}
+
+a:hover {
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+
+/* Hader */
+.banner{
+		width: 1366px;
+	height:600px;
+	background:url("img/HOARDING WEB.png");
+	background-size: cover;
+}
+.container{
+	width: 1366px;
+	height:461px;
+	background: url("img/02.jpg");
+/*	background-color:sienna;*/
+}
+
+.section{
+	width: 1366px;
+	height:914px;
+	background:url("img/04.jpg");
+	position: relative;
+}
+.part{
+	width: 1366px;
+	height:600px;
+	background-color:white;
+}
+.part h2{
+	text-align: center;
+	padding-top: 10px; 
+}
+.img{
+	width:458px;
+	height:307px;
+	background: url("img/blog 01.jpg");
+}
+.imgb{
+	width:458px;
+	height:307px;
+	background:url("img/blog 02.jpg");
+	
+}
+.box{
+	width: 454px;
+	height: 170px;
+	border: 2px solid black;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+}
+.box h3{
+	line-height: 60px;
+}
+.parta, .partb{
+	display: inline-block;
+	text-align: center;
+}
+.parta{
+	margin-left: 220px;
+	margin-top: 30px;
+	margin-right: 10px;
+}
+
+/*
+.pot{
+	width: 264px;
+	height: 350px;
+	background: url("img/fruits.png");
+	position: absolute;
+	right: 0px;
+	top: -70px;
+}
+*/
+
+/* Footer */
+.footer{
+	width: 1366px;
+	height:270px;
+	background-color:blueviolet;
+	color:white;
+	
+}
+.about, .store, .links, .news, .logob{
+	float: left;
+	margin-left: 90px; 
+	margin-top: 50px;
+}
+
+.footer h3{
+	padding-bottom: 30px;
+}
+
+.logob{
+	margin-left: 80px;
+}
+
+.news input{
+	width: 150px;
+	height: 20px;
+	padding: 6px;
+	border-radius: 20px;
+	border: none;
+}
+.news button{
+	width: 31px;
+	height: 31px;
+	padding: 10px; 
+	border-radius: 20px;
+/*	font-weight: bold;
+	font-size: 16px; */
+	cursor: pointer; 
+	border: none;
+	background-image: url("img/icons8-jingle-bell-64.png");
+	background-size: contain;
+}
+
+.news img{
+	margin: 5px;
+}
+
+.icons{
+	padding-top: 10px;
+	padding-left: 30px;
+}
+

@@ -1,0 +1,168 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	margin: 0;
+	padding: 0;
+}
+.wrap{
+	width: 1366px;
+	height: 1300px;
+	margin: 0 auto;
+/*	background-color: aqua;*/
+}
+.main{
+	width: 1366px;
+	height: 30px;
+	background-color: blueviolet;
+}
+.main h2{
+	line-height: 30px;
+	color: white;
+}
+.head{
+	width: 1366px;
+	height: 200px;
+	background-color: white;
+}
+.logo{
+	float:left;
+	margin-left: 300px;
+	margin-top: 10px;
+}
+.search{
+	float: right;
+	margin: 70px 250px 0px 0px;
+}
+.search input{
+	width: 400px;
+	padding: 5px;
+	border-radius: 20px;
+}
+.search button{
+	width: 100px;
+	padding: 5px;
+	border-radius: 20px;
+	font-weight: bold;
+	font-size: 16px;
+	cursor: pointer;
+	border: none;
+}
+.search button:hover{
+	background-color: blueviolet;
+	color: white;
+}
+.nav{
+	width: 1366px;
+	height: 50px;
+	background-color: blueviolet;
+}
+.nav ul{
+	margin-left: 450px;
+/*	margin: 0 auto;*/
+}
+.nav ul li{
+	list-style: none;
+	display: inline-block;
+	padding-right: 40px;
+	padding-top: 15px;
+	color: white;
+	font-weight: bold;
+	cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+}
+
+.content{
+	width: 1366px;
+	height: 740px;
+/*	background-color: aquamarine; */
+	background-image: url("img/augustine-wong-3Om4DHcaAc0-unsplash.jpg");
+	background-size: cover;
+	
+}
+.part1, .part2 {
+	display: inline-block;
+}
+
+.content h4{
+	padding: 5px 0 0 10px;
+}
+
+.content img {
+	margin: 50px;
+	padding-left: 250px;
+	margin-bottom: 0;
+
+}
+
+.content h3 {
+	padding-top: 20px;
+	padding-left: 340px;
+
+}
+
+.footer{
+	width: 1366px;
+	height:350px;
+	background-color:blueviolet;
+	color: white;
+	
+}
+
+.about, .store, .links, .news, .logob{
+	float: left;
+	margin-left: 90px; 
+	margin-top: 50px;
+}
+
+.footer{
+	width: 1366px;
+	height:270px;
+	background-color:blueviolet;
+	
+}
+.about, .store, .links, .news, .logob{
+	float: left;
+	margin-left: 90px; 
+	margin-top: 50px;
+}
+
+.footer h3{
+	padding-bottom: 30px;
+}
+
+.logob{
+	margin-left: 80px;
+}
+
+.news input{
+	width: 150px;
+	height: 20px;
+	padding: 6px;
+	border-radius: 20px;
+	border: none;
+}
+.news button{
+	width: 31px;
+	height: 31px;
+	padding: 10px; 
+	border-radius: 20px;
+/*	font-weight: bold;
+	font-size: 16px; */
+	cursor: pointer; 
+	border: none;
+	background-image: url("img/icons8-jingle-bell-64.png");
+	background-size: contain;
+}
+
+.news img{
+	margin: 5px;
+}
+
+.icons{
+	padding-top: 10px;
+	padding-left: 30px;
+}
+
